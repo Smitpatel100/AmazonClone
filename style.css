@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+   
+}
+.logo{
+   background-image: url("Logo.png");
+   background-size: cover;
+   height: 50px; 
+   width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+        border: 1.5px solid white;
+}
+
+/* box2 */
+.first{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+.second{
+font-size: 1rem;
+margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: rgb(224, 155, 35);
+    border-radius: 4px;
+}
+
+.select{
+    background-color: #ffffff;
+    width: 50px;    
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.Search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+.language{
+    width: 50px;
+    font-size: 14px;
+}
+.language i{
+    margin: 0px 2px 
+}
+.icon{
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     color: #0f1111;
+}
+
+.search:hover{
+    border: 2px solid orange;
+}
+/* box4 */
+span{
+font-size: 0.7rem;
+}
+
+.nav-sec{
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+/* box6 */
+.cart{
+     font-size: 14px;
+     font-weight: 700;
+}
+.cart i{
+    font-size: 35px;
+}
+
+/* panel */
+
+.panel{
+    background-color: #222f3d;
+    height: 39px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options p{
+    display: inline;
+    margin-left: 15px;
+}
+.options{
+    width: 94%;
+    font-size: 0.85rem;
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url("box1.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+}
+.hero-message{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 97%;
+      margin-bottom: 20px;
+
+}
+.hero-message a{
+    color: #2162a1;
+}
+
+/* shop section */
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.b{
+    /* border: solid 1px black; */
+    height: 400px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-bottom: 20px;
+    
+}
+.b1{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 400px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content p{
+    
+    color: #2162a1;
+}
+
+/* footer */
+
+footer{
+    margin-top: 15px;
+}
+.panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+.panel2{
+    background-color: #232f3e;
+    height: 291px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+ul{
+    margin-top: 40px;
+}
+ul p{
+    font-weight: 700;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+
+.panel3{
+    background-color: #232f3e;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image:url("Logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+   
+}
+
+.pages{
+
+padding-top: 25px;
+}
+
+.copyright{
+
+padding-top: 5px;
+}
